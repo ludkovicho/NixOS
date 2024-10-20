@@ -1,0 +1,201 @@
+* {
+  font-family: "Jost", "Symbols Nerd Font";
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+window#waybar {
+  background-color: transparent;
+}
+#mpris {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#mpris.status {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#mpris.player {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#cpu {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+    min-width: 75px;
+}
+#memory {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+    min-width: 150px;
+}
+#clock {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#keyboard-state {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#keyboard-state label {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#keyboard-state label.locked {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#wireplumber {
+  border-bottom: 4px solid rgba(143, 164, 218, 1);
+  background-color: rgba(10, 14, 22, 1);
+  border-radius: 0px;
+  padding: 8px 20px;
+  margin: 5px 2px;
+  min-width: 25px;
+}
+#bluetooth {
+  border-bottom: 4px solid rgba(143, 164, 218, 1);
+  background-color: rgba(10, 14, 22, 1);
+  border-radius: 0px;
+  padding: 8px 20px;
+  margin: 5px 2px;
+}
+#bluetooth.disabled {
+  border-bottom: 4px solid rgba(143, 164, 218, 1);
+  background-color: rgba(10, 14, 22, 1);
+  border-radius: 0px;
+  padding: 8px 20px;
+  margin: 5px 2px;
+}
+#bluetooth.off {
+  border-bottom: 4px solid rgba(143, 164, 218, 1);
+  background-color: rgba(10, 14, 22, 1);
+  border-radius: 0px;
+  padding: 8px 20px;
+  margin: 5px 2px;
+}
+#bluetooth.on {
+  border-bottom: 4px solid rgba(143, 164, 218, 1);
+  background-color: rgba(10, 14, 22, 1);
+  border-radius: 0px;
+  padding: 8px 20px;
+  margin: 5px 2px;
+}
+#bluetooth.connected {
+  border-bottom: 4px solid rgba(143, 164, 218, 1);
+  background-color: rgba(10, 14, 22, 1);
+  border-radius: 0px;
+  padding: 8px 20px;
+  margin: 5px 2px;
+}
+#network {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#workspaces button.active {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#workspaces button {
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#language {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+    min-width: 100px;
+}
+#window {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+    min-width: 22px;
+}
+window#waybar.empty #window {
+    background-color: rgba(10, 14, 22, 1);
+}
+#custom-nix {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#custom-music {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#custom-hyprpicker { 
+    border-bottom: 4px solid rgba(143, 164, 218, 1); 
+    background-color: rgba(10, 14, 22, 1); 
+    border-radius: 0px; 
+    padding: 2px 16px; 
+    margin: 5px 2px;
+}
+#custom-screenshot {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+#custom-nix-clean {
+    border-bottom: 4px solid rgba(143, 164, 218, 1);
+    background-color: rgba(10, 14, 22, 1);
+    border-radius: 0px;
+    padding: 2px 16px;
+    margin: 5px 2px;
+}
+tooltip {
+     background-color: #12141d;
+     border-radius: 3px;
+     border: none;
+}
+tooltip label {
+    margin: 0px;
+    padding: 1px 1px;
+}
+
